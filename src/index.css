@@ -141,6 +141,7 @@ header img {
 
   .card--location_pic {
     width: 100%;
+    padding: 0 1.1875rem;
   }
 
   .card--country,
