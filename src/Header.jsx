@@ -8,7 +8,7 @@ function Header(){
 
     return(
         <header>
-            <img className='header--img' src='./public/header_img.png' alt='Header icon' />
+            <img className='header--img' src='header_img.png' alt='Header icon' />
             <p className='header--p'>my travel journal.</p>
         </header>
     )
