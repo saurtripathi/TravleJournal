@@ -12,14 +12,14 @@ function Card(props) {
         <img className='card--location_pic' src={props.imageUrl} alt='Location Photograph'   />
     </div>
     <div>
-    <div className='card--location_icon--country--maps'>
+    <div className='card--location_icon--country--maps ml'>
         <img className='card--location_icon' src='map.png' alt='Location icon'/>
         <p className='card--country'>{props.location}</p>
         <a className='card--maps' href={props.googleMapsUrl}>View on Google Maps</a>
     </div>
-    <h1 className='card--location_name'>{props.title}</h1>
-    <p className='card--date'>{props.startDate} - {props.endDate}</p>
-    <p className='card--location_description'>{props.description}</p>
+    <h1 className='card--location_name ml'>{props.title}</h1>
+    <p className='card--date ml'>{props.startDate} - {props.endDate}</p>
+    <p className='card--location_description ml'>{props.description}</p>
     </div>
     </div>
     </>
